@@ -15,6 +15,7 @@
 
             <Label
                 Text="Hola, Mundo!"
+                TextColor="#0078D4"
                 Style="{StaticResource Headline}"
                 SemanticProperties.HeadingLevel="Level1" />
 
@@ -22,14 +23,23 @@
                 Text="Binebenido a &#10;.NET Multi-platform App UI"
                 Style="{StaticResource SubHeadline}"
                 SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Binebenido a dot net Multi plataforma App U I" />
+                SemanticProperties.Description="Binebenido a dot net Multi plataforma App UI" />
 
             <Button
                 x:Name="CounterBtn"
-                Text="Presioname" 
-                SemanticProperties.Hint="CUenta las veces que cliqueas el boton"
+                Text="Presioname"
+                BackgroundColor="#0078D4"
+                SemanticProperties.Hint="Cuenta las veces que cliqueas el boton"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill" />
+
+            <Button
+                x:Name="ResetBtn"
+                Text="Reiniciar"
+                BackgroundColor="#DC3545"
+                TextColor="White"
+                Clicked="OnResetClicked"
+                HorizontalOptions="Center" />
         </VerticalStackLayout>
     </ScrollView>
 

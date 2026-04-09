@@ -20,5 +20,12 @@
 
             SemanticScreenReader.Announce(CounterBtn.Text);
         }
+
+        private void OnResetClicked(object sender, EventArgs e)
+        {
+            count = 0;
+            CounterBtn.Text = "Presióname";
+            SemanticScreenReader.Announce("Contador reiniciado");
+        }
     }
 }

@@ -1,0 +1,23 @@
+- ¿Dónde se define el texto “Hello, World!”?
+
+-- Se define en el archivo "MainPage.xaml" en la linea 17: "<Label Text="Hola, Mundo!"..."
+
+- ¿Dónde se define el botón “Click me”?
+
+-- Se define en el archivo "MainPage.xaml".
+
+- ¿Qué método (función) se ejecuta cuando hacés click en el
+botón?
+
+-- El método que ejecuta es este:
+	"private void OnCounterClicked(object? sender, EventArgs e)
+{
+    count++;
+
+    if (count == 1)
+        CounterBtn.Text = $"Se cliequearon {count} veces";
+    else
+        CounterBtn.Text = $"Se cliequearon {count} veces";
+
+    SemanticScreenReader.Announce(CounterBtn.Text);
+}"

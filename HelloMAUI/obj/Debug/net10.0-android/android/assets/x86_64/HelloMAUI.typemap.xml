@@ -1,4 +1,4 @@
-<api type="debug" assembly-name="HelloMAUI" mvid="71dc7907a125479ea4e4334bcfefaa04">
+<api type="debug" assembly-name="HelloMAUI" mvid="73a234f8b36141799df74d8b7644e8fc">
   <java-to-managed>
     <entry java-name="crc6426f1e510aa95d5f4/MainActivity" managed-name="HelloMAUI.MainActivity, HelloMAUI" managed-type-token-id="33554442" />
     <entry java-name="crc6426f1e510aa95d5f4/MainApplication" managed-name="HelloMAUI.MainApplication, HelloMAUI" managed-type-token-id="33554443" />
